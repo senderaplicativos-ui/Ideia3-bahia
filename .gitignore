@@ -1,0 +1,13 @@
+# sistema
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# artefatos locais de trabalho do agente
+.claude/
+
+# assets originais da raiz — já versionados em site/img e site/doc
+/*.png
+/*.jpg
+/*.jpeg
+/*.pdf
