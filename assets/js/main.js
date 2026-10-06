@@ -1,4 +1,4 @@
-/* Grupo Ideia3 Consultoria Bahia — interações da landing page */
+/* Grupo Ideia3 Consultoria — interações da landing page */
 (function () {
   "use strict";
 
@@ -135,7 +135,7 @@
   if (formContato) {
     enviarViaWhatsApp(formContato, function (v) {
       return (
-        "Olá! Quero falar com a Grupo Ideia3 Consultoria Bahia.\n\n" +
+        "Olá! Quero falar com a Grupo Ideia3 Consultoria.\n\n" +
         "Nome: " + v("nome") + "\n" +
         "Empresa: " + (v("empresa") || "-") + "\n" +
         "Telefone: " + v("telefone") + "\n" +
@@ -151,7 +151,7 @@
   if (formVagas) {
     enviarViaWhatsApp(formVagas, function (v) {
       return (
-        "Olá! Quero me candidatar a uma vaga na Grupo Ideia3 Consultoria Bahia.\n\n" +
+        "Olá! Quero me candidatar a uma vaga na Grupo Ideia3 Consultoria.\n\n" +
         "Nome: " + v("nome") + "\n" +
         "Telefone: " + v("telefone") + "\n" +
         "E-mail: " + (v("email") || "-") + "\n" +
@@ -166,7 +166,7 @@
   if (formParceiro) {
     enviarViaWhatsApp(formParceiro, function (v) {
       return (
-        "Olá! Quero ser parceiro da Grupo Ideia3 Consultoria Bahia.\n\n" +
+        "Olá! Quero ser parceiro da Grupo Ideia3 Consultoria.\n\n" +
         "Nome: " + v("nome") + "\n" +
         "Empresa: " + (v("empresa") || "-") + "\n" +
         "Telefone: " + v("telefone") + "\n" +
