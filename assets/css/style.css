@@ -437,6 +437,16 @@ main, header, footer { position: relative; z-index: 1; }
   margin-bottom: 26px;
 }
 
+.hero__tagline {
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--neon);
+  margin-bottom: 16px;
+  opacity: 0.85;
+}
+
 .ponto {
   width: 8px;
   height: 8px;
