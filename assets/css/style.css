@@ -442,7 +442,7 @@ main, header, footer { position: relative; z-index: 1; }
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--neon);
+  color: var(--azul-neon);
   margin-bottom: 16px;
   opacity: 0.85;
 }
